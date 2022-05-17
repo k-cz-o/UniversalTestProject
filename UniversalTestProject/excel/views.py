@@ -8,6 +8,7 @@ from drf_yasg.utils import swagger_auto_schema
 from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework.decorators import parser_classes
 from drf_yasg import openapi
+from django.http import HttpResponse
 
 
 # Create your views here.
@@ -59,3 +60,7 @@ class FileSummary(APIView):
             return Response(result, status=status.HTTP_200_OK)
         else:
             return Response(status=status.HTTP_404_NOT_FOUND)
+
+
+def home(response):
+    return HttpResponse("Welcome to Unversal Test Project")
