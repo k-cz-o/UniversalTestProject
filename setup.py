@@ -1,0 +1,46 @@
+from setuptools import setup
+
+setup(
+    name='UniversalTestProject',
+    version='1.0.0',
+    url='https://github.com/k-cz-o/UniversalTestProject/',
+    license='KCO',
+    author='Karolina Czysz-Orlik',
+    install_requires=[
+        'asgiref==3.5.1',
+        'certifi==2021.10.8',
+        'charset-normalizer==2.0.12',
+        'coreapi==2.3.3',
+        'coreschema==0.0.4',
+        'Django==4.0.4',
+        'djangorestframework==3.13.1',
+        'drf-yasg==1.20.0',
+        'et-xmlfile==1.1.0',
+        'idna==3.3',
+        'inflection==0.5.1',
+        'itypes==1.2.0',
+        'Jinja2==3.1.2',
+        'MarkupSafe==2.1.1',
+        'numpy==1.22.3',
+        'openapi-codec==1.3.2',
+        'openpyxl==3.0.9',
+        'packaging==21.3',
+        'pandas==1.4.2',
+        'pyparsing==3.0.9',
+        'python-dateutil==2.8.2',
+        'pytz==2022.1',
+        'requests==2.27.1',
+        'ruamel.yaml==0.17.21',
+        'ruamel.yaml.clib==0.2.6',
+        'simplejson==3.17.6',
+        'six==1.16.0',
+        'sqlparse==0.4.2',
+        'tzdata==2022.1',
+        'uritemplate==4.1.1',
+        'urllib3==1.26.9'
+        ],
+    author_email='karolina.czysz@gmail.com',
+    description='Django api which allows to upload an Excel file and define columns, '
+                'for which returns a summary in json format ',
+    packages=['UniversalTestProject']
+)
