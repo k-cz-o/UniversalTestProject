@@ -20,6 +20,8 @@ pip install .
 4. Run application
 ```
 cd UnversalTestProject
+```
+```
 python manage.py runserver
 ```
 
